@@ -6,6 +6,7 @@ export const ProductsContext = React.createContext({
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default (props) => {
+  // eslint-disable-next-line no-unused-vars
   const [productsList, setProductsList] = useState([
     {
       id: "p1",
